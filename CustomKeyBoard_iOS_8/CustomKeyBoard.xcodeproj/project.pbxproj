@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BAE33619C891E200DCF15C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33519C891E200DCF15C /* main.m */; };
+		84BAE33919C891E200DCF15C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33819C891E200DCF15C /* AppDelegate.m */; };
+		84BAE33C19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */; };
+		84BAE33F19C891E200DCF15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33E19C891E200DCF15C /* ViewController.m */; };
+		84BAE34219C891E200DCF15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE34019C891E200DCF15C /* Main.storyboard */; };
+		84BAE34419C891E200DCF15C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE34319C891E200DCF15C /* Images.xcassets */; };
+		84BAE34719C891E200DCF15C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE34519C891E200DCF15C /* LaunchScreen.xib */; };
+		84BAE35319C891E200DCF15C /* CustomKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE35219C891E200DCF15C /* CustomKeyBoardTests.m */; };
+		84BAE36619C8929300DCF15C /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE36519C8929300DCF15C /* KeyboardViewController.m */; };
+		84BAE36919C8929300DCF15C /* CustomKeyBoard_iOS8.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84BAE36019C8929300DCF15C /* CustomKeyBoard_iOS8.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84E9440319C89A0D00096A76 /* CustomKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9440219C89A0D00096A76 /* CustomKeyBoard.m */; };
+		84E9440519C89BDA00096A76 /* CustomKeyBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E9440419C89BDA00096A76 /* CustomKeyBoard.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BAE34D19C891E200DCF15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BAE32819C891E200DCF15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BAE32F19C891E200DCF15C;
+			remoteInfo = CustomKeyBoard;
+		};
+		84BAE36719C8929300DCF15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BAE32819C891E200DCF15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BAE35F19C8929300DCF15C;
+			remoteInfo = CustomKeyBoard_iOS8;
+		};
+		84BAE36A19C8929300DCF15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BAE32819C891E200DCF15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BAE35F19C8929300DCF15C;
+			remoteInfo = CustomKeyBoard_iOS8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84BAE36F19C8929300DCF15C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84BAE36919C8929300DCF15C /* CustomKeyBoard_iOS8.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84BAE33019C891E200DCF15C /* CustomKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BAE33419C891E200DCF15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BAE33519C891E200DCF15C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BAE33719C891E200DCF15C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BAE33819C891E200DCF15C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BAE33B19C891E200DCF15C /* CustomKeyBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomKeyBoard.xcdatamodel; sourceTree = "<group>"; };
+		84BAE33D19C891E200DCF15C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84BAE33E19C891E200DCF15C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84BAE34119C891E200DCF15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BAE34319C891E200DCF15C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84BAE34619C891E200DCF15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84BAE34C19C891E200DCF15C /* CustomKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BAE35119C891E200DCF15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BAE35219C891E200DCF15C /* CustomKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoardTests.m; sourceTree = "<group>"; };
+		84BAE36019C8929300DCF15C /* CustomKeyBoard_iOS8.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyBoard_iOS8.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BAE36319C8929300DCF15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BAE36419C8929300DCF15C /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		84BAE36519C8929300DCF15C /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		84E9440119C89A0D00096A76 /* CustomKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoard.h; sourceTree = "<group>"; };
+		84E9440219C89A0D00096A76 /* CustomKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoard.m; sourceTree = "<group>"; };
+		84E9440419C89BDA00096A76 /* CustomKeyBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyBoard.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BAE32D19C891E200DCF15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE34919C891E200DCF15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE35D19C8929300DCF15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BAE32719C891E100DCF15C = {
+			isa = PBXGroup;
+			children = (
+				84BAE33219C891E200DCF15C /* CustomKeyBoard */,
+				84BAE34F19C891E200DCF15C /* CustomKeyBoardTests */,
+				84BAE36119C8929300DCF15C /* CustomKeyBoard_iOS8 */,
+				84BAE33119C891E200DCF15C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BAE33119C891E200DCF15C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE33019C891E200DCF15C /* CustomKeyBoard.app */,
+				84BAE34C19C891E200DCF15C /* CustomKeyBoardTests.xctest */,
+				84BAE36019C8929300DCF15C /* CustomKeyBoard_iOS8.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BAE33219C891E200DCF15C /* CustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE33719C891E200DCF15C /* AppDelegate.h */,
+				84BAE33819C891E200DCF15C /* AppDelegate.m */,
+				84BAE33D19C891E200DCF15C /* ViewController.h */,
+				84BAE33E19C891E200DCF15C /* ViewController.m */,
+				84BAE34019C891E200DCF15C /* Main.storyboard */,
+				84BAE34319C891E200DCF15C /* Images.xcassets */,
+				84BAE34519C891E200DCF15C /* LaunchScreen.xib */,
+				84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */,
+				84BAE33319C891E200DCF15C /* Supporting Files */,
+			);
+			path = CustomKeyBoard;
+			sourceTree = "<group>";
+		};
+		84BAE33319C891E200DCF15C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE33419C891E200DCF15C /* Info.plist */,
+				84BAE33519C891E200DCF15C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BAE34F19C891E200DCF15C /* CustomKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE35219C891E200DCF15C /* CustomKeyBoardTests.m */,
+				84BAE35019C891E200DCF15C /* Supporting Files */,
+			);
+			path = CustomKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		84BAE35019C891E200DCF15C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE35119C891E200DCF15C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BAE36119C8929300DCF15C /* CustomKeyBoard_iOS8 */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE36419C8929300DCF15C /* KeyboardViewController.h */,
+				84BAE36519C8929300DCF15C /* KeyboardViewController.m */,
+				84BAE36219C8929300DCF15C /* Supporting Files */,
+				84E9440119C89A0D00096A76 /* CustomKeyBoard.h */,
+				84E9440219C89A0D00096A76 /* CustomKeyBoard.m */,
+				84E9440419C89BDA00096A76 /* CustomKeyBoard.xib */,
+			);
+			path = CustomKeyBoard_iOS8;
+			sourceTree = "<group>";
+		};
+		84BAE36219C8929300DCF15C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE36319C8929300DCF15C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BAE32F19C891E200DCF15C /* CustomKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BAE35619C891E200DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoard" */;
+			buildPhases = (
+				84BAE32C19C891E200DCF15C /* Sources */,
+				84BAE32D19C891E200DCF15C /* Frameworks */,
+				84BAE32E19C891E200DCF15C /* Resources */,
+				84BAE36F19C8929300DCF15C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BAE36819C8929300DCF15C /* PBXTargetDependency */,
+				84BAE36B19C8929300DCF15C /* PBXTargetDependency */,
+			);
+			name = CustomKeyBoard;
+			productName = CustomKeyBoard;
+			productReference = 84BAE33019C891E200DCF15C /* CustomKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BAE34B19C891E200DCF15C /* CustomKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BAE35919C891E200DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoardTests" */;
+			buildPhases = (
+				84BAE34819C891E200DCF15C /* Sources */,
+				84BAE34919C891E200DCF15C /* Frameworks */,
+				84BAE34A19C891E200DCF15C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BAE34E19C891E200DCF15C /* PBXTargetDependency */,
+			);
+			name = CustomKeyBoardTests;
+			productName = CustomKeyBoardTests;
+			productReference = 84BAE34C19C891E200DCF15C /* CustomKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84BAE35F19C8929300DCF15C /* CustomKeyBoard_iOS8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BAE36C19C8929300DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoard_iOS8" */;
+			buildPhases = (
+				84BAE35C19C8929300DCF15C /* Sources */,
+				84BAE35D19C8929300DCF15C /* Frameworks */,
+				84BAE35E19C8929300DCF15C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyBoard_iOS8;
+			productName = CustomKeyBoard_iOS8;
+			productReference = 84BAE36019C8929300DCF15C /* CustomKeyBoard_iOS8.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BAE32819C891E200DCF15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84BAE32F19C891E200DCF15C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					84BAE34B19C891E200DCF15C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 84BAE32F19C891E200DCF15C;
+					};
+					84BAE35F19C8929300DCF15C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 84BAE32B19C891E200DCF15C /* Build configuration list for PBXProject "CustomKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BAE32719C891E100DCF15C;
+			productRefGroup = 84BAE33119C891E200DCF15C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BAE32F19C891E200DCF15C /* CustomKeyBoard */,
+				84BAE34B19C891E200DCF15C /* CustomKeyBoardTests */,
+				84BAE35F19C8929300DCF15C /* CustomKeyBoard_iOS8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BAE32E19C891E200DCF15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BAE34219C891E200DCF15C /* Main.storyboard in Resources */,
+				84BAE34719C891E200DCF15C /* LaunchScreen.xib in Resources */,
+				84BAE34419C891E200DCF15C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE34A19C891E200DCF15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE35E19C8929300DCF15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E9440519C89BDA00096A76 /* CustomKeyBoard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BAE32C19C891E200DCF15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BAE33919C891E200DCF15C /* AppDelegate.m in Sources */,
+				84BAE33C19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld in Sources */,
+				84BAE33F19C891E200DCF15C /* ViewController.m in Sources */,
+				84BAE33619C891E200DCF15C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE34819C891E200DCF15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BAE35319C891E200DCF15C /* CustomKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAE35C19C8929300DCF15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BAE36619C8929300DCF15C /* KeyboardViewController.m in Sources */,
+				84E9440319C89A0D00096A76 /* CustomKeyBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BAE34E19C891E200DCF15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BAE32F19C891E200DCF15C /* CustomKeyBoard */;
+			targetProxy = 84BAE34D19C891E200DCF15C /* PBXContainerItemProxy */;
+		};
+		84BAE36819C8929300DCF15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BAE35F19C8929300DCF15C /* CustomKeyBoard_iOS8 */;
+			targetProxy = 84BAE36719C8929300DCF15C /* PBXContainerItemProxy */;
+		};
+		84BAE36B19C8929300DCF15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BAE35F19C8929300DCF15C /* CustomKeyBoard_iOS8 */;
+			targetProxy = 84BAE36A19C8929300DCF15C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BAE34019C891E200DCF15C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BAE34119C891E200DCF15C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BAE34519C891E200DCF15C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BAE34619C891E200DCF15C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BAE35419C891E200DCF15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BAE35519C891E200DCF15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BAE35719C891E200DCF15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84BAE35819C891E200DCF15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84BAE35A19C891E200DCF15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyBoard.app/CustomKeyBoard";
+			};
+			name = Debug;
+		};
+		84BAE35B19C891E200DCF15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyBoard.app/CustomKeyBoard";
+			};
+			name = Release;
+		};
+		84BAE36D19C8929300DCF15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyBoard_iOS8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84BAE36E19C8929300DCF15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomKeyBoard_iOS8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BAE32B19C891E200DCF15C /* Build configuration list for PBXProject "CustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BAE35419C891E200DCF15C /* Debug */,
+				84BAE35519C891E200DCF15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BAE35619C891E200DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BAE35719C891E200DCF15C /* Debug */,
+				84BAE35819C891E200DCF15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BAE35919C891E200DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BAE35A19C891E200DCF15C /* Debug */,
+				84BAE35B19C891E200DCF15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BAE36C19C8929300DCF15C /* Build configuration list for PBXNativeTarget "CustomKeyBoard_iOS8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BAE36D19C8929300DCF15C /* Debug */,
+				84BAE36E19C8929300DCF15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84BAE33B19C891E200DCF15C /* CustomKeyBoard.xcdatamodel */,
+			);
+			currentVersion = 84BAE33B19C891E200DCF15C /* CustomKeyBoard.xcdatamodel */;
+			path = CustomKeyBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84BAE32819C891E200DCF15C /* Project object */;
+}
