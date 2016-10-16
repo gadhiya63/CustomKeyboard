@@ -10,7 +10,7 @@
 
 @interface AppDelegate ()
     
-    BOOL number;
+@property (nonatomic, assign) BOOL isnew;
 
 @end
 
