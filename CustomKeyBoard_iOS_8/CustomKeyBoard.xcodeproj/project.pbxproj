@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297EFCEC1DB3FBDA003BBE96 /* NewFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */; };
 		84BAE33619C891E200DCF15C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33519C891E200DCF15C /* main.m */; };
 		84BAE33919C891E200DCF15C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33819C891E200DCF15C /* AppDelegate.m */; };
 		84BAE33C19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */; };
@@ -60,6 +61,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		297EFCEA1DB3FBDA003BBE96 /* NewFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFiles.h; sourceTree = "<group>"; };
+		297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFiles.m; sourceTree = "<group>"; };
 		84BAE33019C891E200DCF15C /* CustomKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BAE33419C891E200DCF15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BAE33519C891E200DCF15C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				84BAE34519C891E200DCF15C /* LaunchScreen.xib */,
 				84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */,
 				84BAE33319C891E200DCF15C /* Supporting Files */,
+				297EFCEA1DB3FBDA003BBE96 /* NewFiles.h */,
+				297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */,
 			);
 			path = CustomKeyBoard;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				84BAE33919C891E200DCF15C /* AppDelegate.m in Sources */,
 				84BAE33C19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld in Sources */,
 				84BAE33F19C891E200DCF15C /* ViewController.m in Sources */,
+				297EFCEC1DB3FBDA003BBE96 /* NewFiles.m in Sources */,
 				84BAE33619C891E200DCF15C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
