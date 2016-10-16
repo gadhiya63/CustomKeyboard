@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+    
+    BOOL number;
 
 @end
 
