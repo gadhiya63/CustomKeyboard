@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		297709161DEA7B9700F446FF /* Feature1.m in Sources */ = {isa = PBXBuildFile; fileRef = 297709151DEA7B9700F446FF /* Feature1.m */; };
-		297EFCEC1DB3FBDA003BBE96 /* NewFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */; };
 		297EFCF21DB3FFDB003BBE96 /* EmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EFCF11DB3FFDB003BBE96 /* EmojiViewController.m */; };
 		84BAE33619C891E200DCF15C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33519C891E200DCF15C /* main.m */; };
 		84BAE33919C891E200DCF15C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE33819C891E200DCF15C /* AppDelegate.m */; };
@@ -63,10 +61,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		297709141DEA7B9700F446FF /* Feature1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feature1.h; sourceTree = "<group>"; };
-		297709151DEA7B9700F446FF /* Feature1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feature1.m; sourceTree = "<group>"; };
-		297EFCEA1DB3FBDA003BBE96 /* NewFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFiles.h; sourceTree = "<group>"; };
-		297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFiles.m; sourceTree = "<group>"; };
 		297EFCF01DB3FFDB003BBE96 /* EmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiViewController.h; sourceTree = "<group>"; };
 		297EFCF11DB3FFDB003BBE96 /* EmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiViewController.m; sourceTree = "<group>"; };
 		84BAE33019C891E200DCF15C /* CustomKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,12 +143,8 @@
 				84BAE34519C891E200DCF15C /* LaunchScreen.xib */,
 				84BAE33A19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld */,
 				84BAE33319C891E200DCF15C /* Supporting Files */,
-				297EFCEA1DB3FBDA003BBE96 /* NewFiles.h */,
-				297EFCEB1DB3FBDA003BBE96 /* NewFiles.m */,
 				297EFCF01DB3FFDB003BBE96 /* EmojiViewController.h */,
 				297EFCF11DB3FFDB003BBE96 /* EmojiViewController.m */,
-				297709141DEA7B9700F446FF /* Feature1.h */,
-				297709151DEA7B9700F446FF /* Feature1.m */,
 			);
 			path = CustomKeyBoard;
 			sourceTree = "<group>";
@@ -342,8 +332,6 @@
 				84BAE33C19C891E200DCF15C /* CustomKeyBoard.xcdatamodeld in Sources */,
 				84BAE33F19C891E200DCF15C /* ViewController.m in Sources */,
 				297EFCF21DB3FFDB003BBE96 /* EmojiViewController.m in Sources */,
-				297709161DEA7B9700F446FF /* Feature1.m in Sources */,
-				297EFCEC1DB3FBDA003BBE96 /* NewFiles.m in Sources */,
 				84BAE33619C891E200DCF15C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
