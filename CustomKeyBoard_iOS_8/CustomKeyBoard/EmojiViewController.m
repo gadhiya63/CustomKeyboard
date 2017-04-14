@@ -17,8 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //emoji view controller
-    //add new files in emoji branch
+
+    /* Add New line and some function
+     */
 }
 
 - (void)didReceiveMemoryWarning {
